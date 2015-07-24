@@ -11,7 +11,7 @@ function hideElementByClass(className) {
         element.style.display = 'none';
     }
 }
-
+ 
 function hideElementByTagName(tagName) {
     var tags = document.getElementsByTagName(tagName);
     for (var i = 0; i < tags.length; ++i) {
